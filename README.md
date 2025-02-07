@@ -35,7 +35,7 @@ This project **bridges that gap** by:
 
 ## **Methodology**
 ### 1. **Data**  
-We use **Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34370501/)**[OSF link](https://osf.io/brwx5/), where 320 participants transcribed sentences from University of Northwestern [**Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings'**](https://speechbox.linguistics.northwestern.edu/allsstar) Mandarin-accented English talkers (Bradlow, A. R. (n.d.) ALLSSTAR). Listeners were exposed to:
+We use Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34370501/)[OSF link](https://osf.io/brwx5/), where 320 participants transcribed sentences from University of Northwestern [Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings'](https://speechbox.linguistics.northwestern.edu/allsstar) Mandarin-accented English talkers (Bradlow, A. R. (n.d.) ALLSSTAR). Listeners were exposed to:
 - **Control Condition:** Native (L1) English talkers.
 - **Multi-Talker Condition:** Different L2 talkers.
 - **Single-Talker Condition:** One repeated L2 talker.
