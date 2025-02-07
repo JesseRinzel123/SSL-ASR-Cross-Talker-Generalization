@@ -16,9 +16,9 @@ Our approach extends previous work by:
 Human listeners adapt quickly to novel talkers and accents, yet the underlying mechanisms remain unclear. Exemplar theory suggests that speech perception relies on rich, stored perceptual traces. However, past research has focused on **highly controlled phonetic contrasts**, leaving open the question of whether **these mechanisms also explain generalization in natural speech.**
 
 This project **bridges that gap** by:
-- Using **self-supervised ASR models (HuBERT)** to derive a **latent perceptual space**.
+- Using **self-supervised ASR models ([HuBERT](https://arxiv.org/abs/2106.07447))** to derive a **latent perceptual space**.
 - Measuring **similarity between exposure and test talkers** via **word-level feature distances**.
-- Comparing model predictions to **human transcription data from Xie et al. (2021)**.
+- Comparing model predictions to **human transcription data from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34370501/)**.
 
 ## **Key Features**
 - **ASR-Based Perceptual Space**  
@@ -27,7 +27,7 @@ This project **bridges that gap** by:
 
 - **Word-Level Perceptual Similarity**  
   - Aligns speech trajectories via **DTW**.
-  - Computes similarity using an **exponential distance function**.
+  - Computes similarity using optimizable **exponential distance function**.
 
 - **Generalization Prediction**  
   - Models listener adaptation using **mixed-effects logistic regression**.
