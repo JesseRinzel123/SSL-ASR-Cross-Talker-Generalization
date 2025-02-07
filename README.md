@@ -50,14 +50,13 @@ We use **Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/
 - Compute perceptual similarity using:
 
 $$
-  dist(i,j) = \sqrt[\tau]{\sum_m w_m|v_{m,i}-v_{m,j}|^\tau}
+  D(i,j) = \sqrt[\tau]{\sum_m w_m|v_{m,i}-v_{m,j}|^\tau}
 $$
 
 $$
   \text{similarity} = \exp\left(\frac{-D(w_x, w_y)^k}{|\pi_{\min}|}\right)
  $$
 
-  where $ D(w_x, w_y) $ is the DTW-based distance.
 
 ### 4. **Modeling Human Perception**  
 - Fit **mixed-effects logistic regression** to predict listener transcription accuracy.
