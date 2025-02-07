@@ -35,7 +35,7 @@ This project **bridges that gap** by:
 
 ## **Methodology**
 ### 1. **Data**  
-We use Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34370501/)[OSF link](https://osf.io/brwx5/), where 320 participants transcribed sentences from University of Northwestern [Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings'](https://speechbox.linguistics.northwestern.edu/allsstar) Mandarin-accented English talkers (Bradlow, A. R. (n.d.) ALLSSTAR). Listeners were exposed to:
+We use **Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34370501/)** ([OSF link](https://osf.io/brwx5/)), where 320 participants transcribed sentences from University ofNorthwestern [**Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings'**](https://speechbox.linguistics.northwestern.edu/allsstar) Mandarin-accented English talkers (Bradlow, A. R. (n.d.) ALLSSTAR). Listeners were exposed to:
 - **Control Condition:** Native (L1) English talkers.
 - **Multi-Talker Condition:** Different L2 talkers.
 - **Single-Talker Condition:** One repeated L2 talker.
@@ -49,15 +49,15 @@ We use Experiment 1a from [Xie et al. (2021)](https://pubmed.ncbi.nlm.nih.gov/34
 - Align **keyword trajectories** across talkers using **DTW**.
 - Compute perceptual similarity using:
 
-  \[
+$$
   dist(i,j) = \sqrt[\tau]{\sum_m w_m|v_{m,i}-v_{m,j}|^\tau}
-  \]
+$$
 
-  \[
+$$
   \text{similarity} = \exp\left(\frac{-D(w_x, w_y)^k}{|\pi_{\min}|}\right)
-  \]
+ $$
 
-  where \( D(w_x, w_y) \) is the DTW-based distance.
+  where $ D(w_x, w_y) $ is the DTW-based distance.
 
 ### 4. **Modeling Human Perception**  
 - Fit **mixed-effects logistic regression** to predict listener transcription accuracy.
